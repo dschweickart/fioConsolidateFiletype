@@ -22,7 +22,7 @@ frameioclient
 To Clone Repo
 ```bash
 cd /path/to/project
-git clone https://github.com/Frameio/assetScan .
+git clone https://github.com/dschweickart/fioConsolidateFiletype .
 ```
 
 To Install
@@ -45,11 +45,11 @@ Edit the fields at the bottom of the file after "else" :
 NOTE: These are correct values for Criminial Minds workflow.
     token =         args[0] if args[0] else {API_TOKEN}
     projectID =     args[1] if args[1] else 'aef0e6cf-2099-4400-97bf-0b210c710543'
-    accountID =     args[2] if args[2] else '520272e0-158c-462c-9dea-9cc10d1e7889'
     target_folder = args[3] if args[3] else '059419e6-83aa-4e55-b707-aa0c2d276e02'
     file_ext =      args[4] if args[4] else '.mxf'
 NOTE:
-You can get IDs from get IDs
+You can get IDs from webapp urls.
+https://app.frame.io/projects/{projectID}/{folderID}
 ```
 
 To Run:
