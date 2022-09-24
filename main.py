@@ -105,9 +105,9 @@ if __name__ == '__main__':
         except:
             args.append(None)
 
-    token =         args[0] if args[0] else "fio-u-e3Exo-x8eeWyD2-8G9XjxwD9hAk9VWSBb2XeuK_3Kq1-KKgxb66xhMlGEU24Ime-"
+    token =         args[0] if args[0] else {'API_TOKEN'}
     projectID =     args[1] if args[1] else 'aef0e6cf-2099-4400-97bf-0b210c710543'
-    target_folder = args[2] if args[2] else '3a5ee321-00f0-4e4c-a187-ebf5f0ae309d' #'059419e6-83aa-4e55-b707-aa0c2d276e02'
+    target_folder = args[2] if args[2] else '059419e6-83aa-4e55-b707-aa0c2d276e02'
     file_ext =      args[3] if args[3] else '.mxf'
 
     consolidate(token, projectID, target_folder, file_ext)
